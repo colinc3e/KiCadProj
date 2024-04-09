@@ -1,0 +1,9 @@
+Manufacturer=Diodes Inc.
+PartNumber=DMG2305UX-7
+PartCategory=MOSFET (P-Channel)
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=5.1
+Released=2016-01-04 05:49:03
+Downloaded=2023-05-11 07:08:45
+3D=Y

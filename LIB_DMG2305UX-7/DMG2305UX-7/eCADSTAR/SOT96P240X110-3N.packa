@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "DMG2305UX-7"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-09-01-05:15:59)
+    (mountForm default
+        (footprintRef "SOT96P240X110-3N")
+        (spec "System")
+    )
+)
