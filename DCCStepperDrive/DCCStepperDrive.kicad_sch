@@ -1875,7 +1875,6 @@
     )
   )
 
-
   (junction (at 39.37 100.254) (diameter 0) (color 0 0 0 0)
     (uuid 0470656f-fd95-4f98-a107-0d47c9559da6)
   )
@@ -3328,7 +3327,7 @@
     (uuid 629cc0dd-74fb-448c-b088-76a32ec30813)
     (property "Reference" "J4" (id 0) (at 21.3574 121.92 0))
     (property "Value" "DCC" (id 1) (at 21.3574 124.46 0))
-    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" (id 2) (at 21.3574 131.3615 0)
+    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" (id 2) (at 21.3574 131.3615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 21.3574 131.3615 0)
@@ -3488,7 +3487,7 @@
     (uuid a0336853-30aa-4b51-9ed7-c3dc664197ab)
     (property "Reference" "U4" (id 0) (at 162.9414 90.2418 0))
     (property "Value" "Pico" (id 1) (at 162.9414 92.7818 0))
-    (property "Footprint" "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH" (id 2) (at 162.9414 61.0318 90)
+    (property "Footprint" "MCU_RaspberryPi_and_Boards:RP2040Pico" (id 2) (at 162.9414 61.0318 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 162.9414 61.0318 0)
@@ -3723,7 +3722,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e3424edd-c6e4-4303-98a8-a40a0bc850b7)
     (property "Reference" "D1" (id 0) (at 38.6184 18.0164 0))
-    (property "Value" "1N4004" (id 1) (at 38.6184 20.5564 0))
+    (property "Value" "1N5819" (id 1) (at 38.6184 20.5564 0))
     (property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" (id 2) (at 38.6184 19.5594 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3739,7 +3738,7 @@
     (uuid eacfd744-9b7a-4bc4-a6c0-a7a5927aaebd)
     (property "Reference" "J1" (id 0) (at 17.3519 46.4417 0))
     (property "Value" "12v" (id 1) (at 17.3519 48.9817 0))
-    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" (id 2) (at 17.3519 54.8305 0)
+    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" (id 2) (at 17.3519 54.8305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 17.3519 54.8305 0)
@@ -3808,7 +3807,7 @@
       (reference "C4") (unit 1) (value "22uF") (footprint "Capacitor_THT:CP_Radial_Tantal_D7.0mm_P5.00mm")
     )
     (path "/e3424edd-c6e4-4303-98a8-a40a0bc850b7"
-      (reference "D1") (unit 1) (value "1N4004") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+      (reference "D1") (unit 1) (value "1N5819") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
     )
     (path "/9814b120-2ea5-4a3f-b071-311d1d4c2b5a"
       (reference "D2") (unit 1) (value "1N4148") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
@@ -3826,7 +3825,7 @@
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
     (path "/eacfd744-9b7a-4bc4-a6c0-a7a5927aaebd"
-      (reference "J1") (unit 1) (value "12v") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal")
+      (reference "J1") (unit 1) (value "12v") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal")
     )
     (path "/5e34c066-4d14-4a93-a105-3bd24f53c0bc"
       (reference "J2") (unit 1) (value "CBUS ") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal")
@@ -3835,7 +3834,7 @@
       (reference "J3") (unit 1) (value "5V select") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/629cc0dd-74fb-448c-b088-76a32ec30813"
-      (reference "J4") (unit 1) (value "DCC") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal")
+      (reference "J4") (unit 1) (value "DCC") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal")
     )
     (path "/51174d72-2980-4e35-8182-d98addde6f66"
       (reference "J5") (unit 1) (value "Grove 2mm") (footprint "OPL_Connector:HW4-2.0")
@@ -3883,7 +3882,7 @@
       (reference "U3") (unit 1) (value "6N137") (footprint "Package_DIP:DIP-8_W7.62mm")
     )
     (path "/a0336853-30aa-4b51-9ed7-c3dc664197ab"
-      (reference "U4") (unit 1) (value "Pico") (footprint "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH")
+      (reference "U4") (unit 1) (value "Pico") (footprint "MCU_RaspberryPi_and_Boards:RP2040Pico")
     )
   )
 )
