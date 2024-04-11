@@ -1,4 +1,4 @@
-:#!/bin/bash          
+#!/bin/bash          
 # this will add new files to local repository 
 # and then update remote repository
 # should work everywhere including rasp Pi
