@@ -3393,7 +3393,7 @@
     (uuid 47e24da2-76f2-49b3-a05e-d1d7eec92d5c)
     (property "Reference" "U5" (id 0) (at 240.0481 90.17 0))
     (property "Value" "Pico" (id 1) (at 240.0481 92.71 0))
-    (property "Footprint" "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH" (id 2) (at 240.0481 60.9873 90)
+    (property "Footprint" "MCU_RaspberryPi_and_Boards:RP2040Pico" (id 2) (at 240.0481 60.9873 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 240.0481 60.9873 0)
@@ -3992,7 +3992,7 @@
       (reference "U4") (unit 1) (value "AMS1117-3.3") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
     )
     (path "/47e24da2-76f2-49b3-a05e-d1d7eec92d5c"
-      (reference "U5") (unit 1) (value "Pico") (footprint "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH")
+      (reference "U5") (unit 1) (value "Pico") (footprint "MCU_RaspberryPi_and_Boards:RP2040Pico")
     )
   )
 )
