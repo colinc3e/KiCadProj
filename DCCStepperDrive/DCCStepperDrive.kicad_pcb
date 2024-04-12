@@ -1315,7 +1315,6 @@
     (property "SKU" "320110033")
     (property "Sheetfile" "DCCStepperDrive.kicad_sch")
     (property "Sheetname" "")
-    (path "/cb567441-8070-43a6-91a4-d05496d8ca81")
     (attr exclude_from_pos_files)
     (fp_text reference "J6" (at -0.025 -3.375) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
