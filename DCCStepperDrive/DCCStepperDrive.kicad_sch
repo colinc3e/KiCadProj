@@ -7,7 +7,7 @@
   (title_block
     (title "DCC Stepper Motor Drive")
     (date "2024-04-04")
-    (rev "2.0")
+    (rev "3.0")
     (comment 1 "1 Power supply to A4988 changed to 3v3")
     (comment 2 "2 Interface for sensor added")
     (comment 3 "3 Oled added")

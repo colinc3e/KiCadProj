@@ -1914,7 +1914,7 @@
   (gr_text "SDA" (at 145.278704 115.930588 270) (layer "F.SilkS") (tstamp 7064a956-4346-464d-9ecf-06bc29c20741)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "PicoXpressSmdK version 2\n" (at 141 54) (layer "F.SilkS") (tstamp b017221a-571b-4917-a644-a903514dcd08)
+  (gr_text "PicoXpressSmdK version 3\n" (at 141 54) (layer "F.SilkS") (tstamp b017221a-571b-4917-a644-a903514dcd08)
     (effects (font (size 2 2) (thickness 0.15)))
   )
   (gr_text "Gnd\n" (at 159.228376 128.115329 270) (layer "F.SilkS") (tstamp b2b02965-0e36-4db7-a3ca-817bd39c34a3)

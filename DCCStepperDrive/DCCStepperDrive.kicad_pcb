@@ -2509,7 +2509,7 @@
   (gr_arc (start 200 147) (mid 199.12132 149.12132) (end 197 150) (layer "Edge.Cuts") (width 0.1) (tstamp b5ed5ca8-b36a-4b2c-8650-e0589cf70ce1))
   (gr_arc (start 103 150) (mid 100.87868 149.12132) (end 100 147) (layer "Edge.Cuts") (width 0.1) (tstamp c0ca7ddb-2db6-4709-b006-2b6ceea689f5))
   (gr_arc (start 197 50) (mid 199.12132 50.87868) (end 200 53) (layer "Edge.Cuts") (width 0.2) (tstamp caf23126-6336-4cf2-83e6-8eeda83ad816))
-  (gr_text "DCC Stepper Drive v2.0\n" (at 150 53) (layer "F.SilkS") (tstamp 2037f680-d9c8-4aa1-b64d-016113e37eb2)
+  (gr_text "DCC Stepper Drive v3.0\n" (at 150 53) (layer "F.SilkS") (tstamp 2037f680-d9c8-4aa1-b64d-016113e37eb2)
     (effects (font (size 2 2) (thickness 0.15)))
   )
   (gr_text "Gnd\n" (at 142.714313 65.315424 90) (layer "F.SilkS") (tstamp 2d41c6ad-3095-4bbf-9bd3-ce05ba7f119f)

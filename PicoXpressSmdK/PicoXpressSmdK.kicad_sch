@@ -7,7 +7,7 @@
   (title_block
     (title "Lenz  Xpressnet Throttle")
     (date "2024-04-09")
-    (rev "2.0")
+    (rev "3.0")
   )
 
   (lib_symbols
