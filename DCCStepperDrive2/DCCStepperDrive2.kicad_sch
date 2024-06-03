@@ -2969,7 +2969,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0c64a3e2-8901-4661-b363-d585213ab489)
   )
-  (label "+5V" (at 257.81 22.86 0)
+  (label "3V3" (at 257.81 22.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0c79dd17-61a8-4136-ac5d-56ac51bae8fc)
   )
