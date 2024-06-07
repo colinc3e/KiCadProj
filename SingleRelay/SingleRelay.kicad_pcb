@@ -1180,6 +1180,7 @@
     )
   )
 
+  (gr_line (start 101.106668 82.086749) (end 186.814425 82.086749) (layer "Dwgs.User") (width 2) (tstamp a675d858-66c5-45b5-8486-3ca6423ad20c))
   (gr_line (start 186.897277 110.846591) (end 101.023818 110.752225) (layer "Edge.Cuts") (width 0.1) (tstamp 2ea419f4-1b72-41ec-8223-ff0f304db194))
   (gr_line (start 101.023818 50.074605) (end 186.80291 50.263338) (layer "Edge.Cuts") (width 0.1) (tstamp 40130c0c-62af-4c92-89a2-69457b718b21))
   (gr_line (start 101.023818 110.752225) (end 101.023818 50.074605) (layer "Edge.Cuts") (width 0.1) (tstamp aeee2667-1636-4dd1-b7f8-7f6df8f8af84))
@@ -1239,6 +1240,9 @@
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "Single SPDT Relay Board v1.0" (at 133.957705 88.198646) (layer "F.SilkS") (tstamp ec80927e-b9ee-4b82-afd3-7403559a1a96)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "V-Score" (at 191.2146 81.799781) (layer "Dwgs.User") (tstamp 2abd6f06-52df-497e-821d-59a040fab237)
     (effects (font (size 1 1) (thickness 0.15)))
   )
 
