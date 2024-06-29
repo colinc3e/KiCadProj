@@ -11,6 +11,7 @@
     (comment 1 "1 Power supply to A4988 changed to 3v3")
     (comment 2 "2 Interface for sensor added")
     (comment 3 "3 Oled added")
+    (comment 4 "4 R2 incorredt on BOM - 330k no 330")
   )
 
   (lib_symbols
