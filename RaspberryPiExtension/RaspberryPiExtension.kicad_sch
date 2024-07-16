@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Raspberry piExpansion Board for RF Receive Transmit")
+    (date "2024-07-09")
+    (rev "1.0")
+  )
+
   (lib_symbols
     (symbol "Connector:Screw_Terminal_01x03" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 5.08 0)
@@ -803,7 +809,7 @@
     (property "Value" "MountingHole" (id 1) (at 40.64 179.0699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom" (id 2) (at 38.1 177.8 0)
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad" (id 2) (at 38.1 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 38.1 177.8 0)
@@ -820,7 +826,7 @@
     (property "Value" "MountingHole" (id 1) (at 40.64 166.3699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom" (id 2) (at 38.1 165.1 0)
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad" (id 2) (at 38.1 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 38.1 165.1 0)
@@ -897,7 +903,7 @@
     (property "Value" "MountingHole" (id 1) (at 53.34 167.6399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom" (id 2) (at 50.8 166.37 0)
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad" (id 2) (at 50.8 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 50.8 166.37 0)
@@ -971,7 +977,7 @@
     (property "Value" "MountingHole" (id 1) (at 53.34 179.0699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom" (id 2) (at 50.8 177.8 0)
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad" (id 2) (at 50.8 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 50.8 177.8 0)
@@ -1030,16 +1036,16 @@
       (reference "#FLG03") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/19b28336-8a5d-4757-a46a-8fb0723c8931"
-      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.5mm_Pad_TopBottom")
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5_Pad")
     )
     (path "/173ee601-dbdc-4515-b950-40d3179401dc"
-      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.5mm_Pad_TopBottom")
+      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5_Pad")
     )
     (path "/54d29be9-0b3e-40c8-9852-faa7a490d23f"
-      (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.5mm_Pad_TopBottom")
+      (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5_Pad")
     )
     (path "/cf14c459-3a9f-427f-b55f-05be5de35091"
-      (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.5mm_Pad_TopBottom")
+      (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5_Pad")
     )
     (path "/4b5434d5-3510-416b-95e8-f0230607849f"
       (reference "J2") (unit 1) (value "RASPBERRYPI-40-PIN-GPIO_PTH_NO_SHROUD") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical")
