@@ -3154,6 +3154,11 @@
     (uuid ffc84193-0f39-4779-8771-5f33b9f15cce)
   )
 
+  (text "SDA/SCL reversed\n" (at 190.5 81.28 0)
+    (effects (font (size 5.08 5.08)) (justify left bottom))
+    (uuid 62a0d262-05f2-4227-a78c-2377351f9b63)
+  )
+
   (label "SDA" (at 266.1702 69.6182 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 03e161bf-dc1c-4945-91ca-c4bdc23ea9c8)
