@@ -1309,7 +1309,6 @@
     )
   )
 
-
   (junction (at 62.23 48.26) (diameter 0) (color 0 0 0 0)
     (uuid 002972a7-863d-4162-ad32-fb00bc2110e0)
   )
@@ -1919,7 +1918,7 @@
     (uuid 1a850953-e696-40b6-a1fc-7a92a62063d4)
     (property "Reference" "J4" (id 0) (at 191.135 34.29 0))
     (property "Value" "Conn_01x20_Male" (id 1) (at 191.135 36.83 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" (id 2) (at 190.5 62.23 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical" (id 2) (at 190.5 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 190.5 62.23 0)
@@ -2070,7 +2069,7 @@
     (property "Value" "Conn_01x20_Male" (id 1) (at 274.32 64.7699 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" (id 2) (at 273.05 64.77 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical" (id 2) (at 273.05 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 273.05 64.77 0)
@@ -2453,10 +2452,10 @@
       (reference "J3") (unit 1) (value "Grove 2mm") (footprint "OPL_Connector:HW4-2.0")
     )
     (path "/1a850953-e696-40b6-a1fc-7a92a62063d4"
-      (reference "J4") (unit 1) (value "Conn_01x20_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical")
+      (reference "J4") (unit 1) (value "Conn_01x20_Male") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical")
     )
     (path "/508c1793-b3ac-4a28-93d9-e73559a97305"
-      (reference "J5") (unit 1) (value "Conn_01x20_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical")
+      (reference "J5") (unit 1) (value "Conn_01x20_Male") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical")
     )
     (path "/37118974-3a56-4fcc-9031-fa4d14c74939"
       (reference "Q1") (unit 1) (value "DMG2305UX-7") (footprint "Package_TO_SOT_SMD:SOT-23")
