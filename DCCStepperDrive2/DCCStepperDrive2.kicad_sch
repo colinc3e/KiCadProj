@@ -1252,28 +1252,8 @@
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (polyline
-          (pts
-            (xy -2.921 -3.048)
-            (xy -2.159 -3.048)
-            (xy -2.54 -3.175)
-            (xy -2.54 -2.921)
-            (xy -2.159 -3.048)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.921 -2.032)
-            (xy -2.159 -2.032)
-            (xy -2.54 -2.159)
-            (xy -2.54 -1.905)
-            (xy -2.159 -2.032)
-          )
-          (stroke (width 0.127) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
+
+
         (pin no_connect line (at -5.08 5.08 0) (length 2.54) hide
           (name "NC" (effects (font (size 0.635 0.635))))
           (number "1" (effects (font (size 1.27 1.27))))
