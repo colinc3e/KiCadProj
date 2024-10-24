@@ -459,9 +459,7 @@
     "netclass_assignments": {
       "GND": "power",
       "Net-(#FLG01-pwr)": "power",
-      "Net-(#FLG02-pwr)": "power",
-      "Net-(J8-Pin_1)": "power",
-      "Net-(J8-Pin_2)": "power"
+      "Net-(#FLG02-pwr)": "power"
     },
     "netclass_patterns": []
   },
