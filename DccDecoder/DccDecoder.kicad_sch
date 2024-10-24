@@ -3089,7 +3089,7 @@
     (property "Value" "BDR6133" (at 235.6994 123.19 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias" (at 233.68 129.54 0)
+    (property "Footprint" "RP2040-Decoder_Additional_Footprints:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias" (at 233.68 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2101211904_Bardeen-Micro--BDR6133_C2687793.pdf" (at 240.03 132.08 0)
