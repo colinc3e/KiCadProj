@@ -50,6 +50,7 @@ fp-info-cache
 KiCadTest
 **/Gerbers/
 **/jlcpcb/
+**/production/
 
 HelpFiles/
 6.0/
