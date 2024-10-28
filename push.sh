@@ -8,6 +8,6 @@ echo ${myName}
 echo "check status for ${myName}  repository"
 git status
 git add -A
-git commit -m "`$date +%d/%m/%y` `date +%H:%M` ${HOSTNAME%”.local”}"
+git commit -m "$date +%d/%m/%y `date +%H:%M` ${HOSTNAME%”.local”}"
 git push
 
