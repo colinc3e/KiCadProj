@@ -433,7 +433,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -490,8 +490,8 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "Net-(#FLG01-pwr)": "power",
-      "Net-(#FLG02-pwr)": "power"
+      "Net-(J8-Pin_1)": "power",
+      "Net-(J8-Pin_2)": "power"
     },
     "netclass_patterns": []
   },
