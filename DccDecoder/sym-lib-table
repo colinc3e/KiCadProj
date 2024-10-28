@@ -1,3 +1,4 @@
 (sym_lib_table
   (version 7)
+  (lib (name "RP2040-Decoder_Additional_Symbols")(type "KiCad")(uri "/Users/colinc/SandBox/RP2040-Decoder/KiCad/RP2040-Decoder_Additional_Symbols.kicad_sym")(options "")(descr ""))
 )
