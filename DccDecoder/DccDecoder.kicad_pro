@@ -490,7 +490,6 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "GND": "power",
       "Net-(#FLG01-pwr)": "power",
       "Net-(#FLG02-pwr)": "power"
     },
