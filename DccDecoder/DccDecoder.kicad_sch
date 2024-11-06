@@ -7,6 +7,7 @@
   (title_block
     (title "Pico DCC Decoder")
     (date "2024-10-26")
+    (rev "1.0")
   )
 
   (lib_symbols
@@ -1252,7 +1253,6 @@
       )
     )
   )
-
 
   (junction (at 233.68 132.08) (diameter 0) (color 0 0 0 0)
     (uuid 33f2ecc6-2e97-4308-bc35-2ab4a8fa74ec)
