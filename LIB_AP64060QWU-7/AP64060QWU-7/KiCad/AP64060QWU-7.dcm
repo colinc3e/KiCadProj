@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP64060QWU-7
+D Switching Voltage Regulators DCDC Conv HV Buck TSOT26(STD) T&R 3K
+K
+F https://www.diodes.com//assets/Datasheets/AP64060.pdf
+$ENDCMP
+#
+#End Doc Library

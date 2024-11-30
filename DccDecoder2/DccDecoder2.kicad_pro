@@ -445,7 +445,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DccDecoder.kicad_pro",
+    "filename": "DccDecoder2.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -490,8 +490,8 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "Net-(J8-Pin_1)": "power",
-      "Net-(J8-Pin_2)": "power"
+      "Net-(#FLG01-pwr)": "power",
+      "Net-(#FLG02-pwr)": "power"
     },
     "netclass_patterns": []
   },

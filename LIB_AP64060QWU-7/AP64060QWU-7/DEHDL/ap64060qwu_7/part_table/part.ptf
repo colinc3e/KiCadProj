@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AP64060QWU_7'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "AP64060QWU-7" (!) = "", "SOT95P280X100-6N", "SOT23 (6-Pin)", "621-AP64060QWU-7", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP64060QWU-7?qs=Li%252BoUPsLEnvtPycFvZmEcQ%3D%3D", "Switching Voltage Regulators DCDC Conv HV Buck TSOT26(STD) T&R 3K", "https://www.diodes.com//assets/Datasheets/AP64060.pdf", "1 mm"
+END_PART
+
+END.
