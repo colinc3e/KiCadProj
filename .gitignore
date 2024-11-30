@@ -51,6 +51,7 @@ KiCadTest
 **/Gerbers/
 **/jlcpcb/
 **/production/
+**/KiCadLibs/
 
 HelpFiles/
 6.0/
