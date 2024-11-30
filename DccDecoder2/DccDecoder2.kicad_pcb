@@ -348,10 +348,10 @@
       (net 3 "+V") (pinfunction "K") (pintype "passive") (tstamp ca4094f6-6bcf-4f6e-9430-77c1f5749eed))
     (pad "2" smd rect (at 1.25 0) (size 0.8 1.1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "+V") (pinfunction "A") (pintype "passive") (tstamp e0b3ba52-5592-41f7-87aa-c0b54a3ce6c4))
-    (model "/Users/colinc/Downloads/LIB_CUHS20F30,H3F/CUHS20F30,H3F/3D/CUHS20F30,H3F.stp"
+    (model "/Users/colinc/Documents/KiCad/KiCadLibs/LIB_CUHS20F30,H3F/CUHS20F30,H3F/3D/CUHS20F30,H3F.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 -90))
+      (rotate (xyz 0 0 90))
     )
   )
 
