@@ -304,7 +304,7 @@
       (net 9 "Net-(IC1-SW)") (pinfunction "1") (pintype "passive") (tstamp 0e18bfb5-7a7f-41f1-9c24-4a48b8d977ee))
     (pad "2" smd rect (at 0.8 0) (size 0.8 1.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "+5V") (pinfunction "2") (pintype "passive") (tstamp a736810d-e80a-4102-996a-bc098aa0bcf1))
-    (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-LQSH-2010.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_MAPI-2010.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
