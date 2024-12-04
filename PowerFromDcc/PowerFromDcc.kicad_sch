@@ -610,7 +610,6 @@
     )
   )
 
-
   (junction (at 67.31 60.96) (diameter 0) (color 0 0 0 0)
     (uuid 00eaf343-fb6d-40fb-9a43-e850dc6f21dc)
   )
@@ -1072,7 +1071,7 @@
       )
       (project "PowerFromDcc"
         (path "/ce5bbdfd-6719-4170-a6f6-5cd4493cec2b"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -1294,10 +1293,10 @@
   (symbol (lib_id "Device:D_Zener") (at 111.76 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8b263e7-6ea4-46f9-b9c6-897577ff1b63)
-    (property "Reference" "D1" (at 111.76 36.83 0)
+    (property "Reference" "D1" (at 111.76 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CUHS20F30" (at 111.76 39.37 0)
+    (property "Value" "CUHS20F30" (at 111.76 38.1 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "CUHS20F30:CUHS20F30H3F" (at 111.76 41.91 0)
@@ -1316,7 +1315,7 @@
       )
       (project "PowerFromDcc"
         (path "/ce5bbdfd-6719-4170-a6f6-5cd4493cec2b"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
