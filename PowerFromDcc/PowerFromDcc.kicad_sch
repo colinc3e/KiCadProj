@@ -1359,10 +1359,10 @@
   (symbol (lib_id "Device:D_Schottky") (at 148.59 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ee637cbc-2b38-41de-a6d1-120e2ca5dca5)
-    (property "Reference" "D3" (at 148.2725 46.99 0)
+    (property "Reference" "D2" (at 148.2725 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CUHS20F30" (at 148.2725 49.53 0)
+    (property "Value" "CUHS20F30" (at 148.2725 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Diode_SMD:D_1206_3216Metric" (at 148.59 52.07 0)
@@ -1376,7 +1376,7 @@
     (instances
       (project "PowerFromDcc"
         (path "/682eb615-157b-497c-a26b-f536ca133095"
-          (reference "D3") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
