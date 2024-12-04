@@ -1212,7 +1212,7 @@
     (property "Value" "CUHS20F30" (at 111.76 38.1 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "CUHS20F30:CUHS20F30H3F" (at 111.76 41.91 0)
+    (property "Footprint" "Diode_SMD:D_1206_3216Metric" (at 111.76 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 111.76 41.91 0)
