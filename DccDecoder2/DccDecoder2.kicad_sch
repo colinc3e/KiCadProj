@@ -1420,9 +1420,6 @@
   (junction (at 113.03 20.32) (diameter 0) (color 0 0 0 0)
     (uuid 9a3e3f2d-dedc-4432-a11f-fc7eb904b2bf)
   )
-  (junction (at 109.22 30.48) (diameter 0) (color 0 0 0 0)
-    (uuid 9e18c3b0-b3a3-41ad-a28f-59a0f09aaaca)
-  )
   (junction (at 113.03 63.5) (diameter 0) (color 0 0 0 0)
     (uuid a8523d8d-6fdb-4ba2-a381-05dc9780b175)
   )
@@ -1668,10 +1665,6 @@
   (wire (pts (xy 78.74 76.2) (xy 78.74 83.82))
     (stroke (width 0) (type default))
     (uuid 62e73215-d576-4e08-8442-8fa33330278b)
-  )
-  (wire (pts (xy 109.22 30.48) (xy 109.22 27.94))
-    (stroke (width 0) (type default))
-    (uuid 63c04c70-bfad-4682-be8a-72a4178fd600)
   )
   (wire (pts (xy 265.43 147.32) (xy 266.7 147.32))
     (stroke (width 0) (type default))
@@ -3127,36 +3120,6 @@
       (project "DccDecoder2"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
           (reference "#PWR08") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "RP2040-Decoder_Additional_Symbols:+V") (at 109.22 27.94 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a39ac109-fe64-4cb1-b8a1-37633abddce7)
-    (property "Reference" "#PWR02" (at 109.22 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+VP" (at 109.22 24.13 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 109.22 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 109.22 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c6cd8f85-ee13-463f-9374-aefa98f99e41))
-    (instances
-      (project "RP2040-Decoder"
-        (path "/11d18738-0f49-4d63-b61c-22a93efd5959"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-      (project "DccDecoder2"
-        (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "#PWR03") (unit 1)
         )
       )
     )
