@@ -1631,7 +1631,7 @@
     (property "Value" "10uH" (at 72.39 31.75 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-LQSH-2010" (at 72.39 30.48 0)
+    (property "Footprint" "Inductor_SMD:L_1206_3216Metric" (at 72.39 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 72.39 30.48 0)
