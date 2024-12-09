@@ -1277,7 +1277,7 @@
     (property "Value" "DMG2305UX-7" (at 137.16 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 140.97 77.47 0)
+    (property "Footprint" "DMG2305UX-7:SOT96P240X110-3N" (at 140.97 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf" (at 143.51 77.47 0)
