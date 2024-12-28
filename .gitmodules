@@ -1,0 +1,3 @@
+[submodule "RP2040-minimal-design"]
+	path = RP2040-minimal-design
+	url = https://github.com/tommy-gilligan/RP2040-minimal-design.git
