@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "Raspberry Pico")(type KiCad)(uri D:/KicadLibs/Modules/RaspberryPico.pretty)(options "")(descr ""))
-)
