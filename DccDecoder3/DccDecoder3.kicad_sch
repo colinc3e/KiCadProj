@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "Pico DCC Decoder - ")
+    (title "Pico DCC Decoder - Duaghter board")
     (date "2024-10-26")
     (rev "3.0")
     (comment 1 "Changed Inpuut regulator")
@@ -1164,6 +1164,7 @@
       )
     )
   )
+
 
   (junction (at 107.95 43.18) (diameter 0) (color 0 0 0 0)
     (uuid 0088f61e-b29b-459d-a729-56d6674f1724)
