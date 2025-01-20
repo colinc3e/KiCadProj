@@ -59,7 +59,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "solder_mask_bridge|127508095|75702438|cfff60b7-8654-4742-84c9-545f8784fb40|736a301b-c52d-4f50-a69f-cba60d457a95"
+      ],
       "meta": {
         "version": 2
       },
@@ -445,7 +447,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DccDecoder2.kicad_pro",
+    "filename": "DccDecoder3.kicad_pro",
     "version": 1
   },
   "net_settings": {
