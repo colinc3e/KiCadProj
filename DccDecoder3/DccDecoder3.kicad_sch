@@ -53,11 +53,11 @@
         )
       )
     )
-    (symbol "Connector:Screw_Terminal_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Connector:Conn_01x01_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Screw_Terminal_01x02" (at 0 -5.08 0)
+      (property "Value" "Conn_01x01_Pin" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -66,67 +66,34 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "screw terminal" (at 0 0 0)
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+      (property "ki_description" "Generic connector, single row, 01x01, script generated" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "TerminalBlock*:*" (at 0 0 0)
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Screw_Terminal_01x02_1_1"
-        (rectangle (start -1.27 1.27) (end 1.27 -3.81)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (circle (center 0 -2.54) (radius 0.635)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
+      (symbol "Conn_01x01_Pin_1_1"
         (polyline
           (pts
-            (xy -0.5334 -2.2098)
-            (xy 0.3302 -3.048)
+            (xy 1.27 0)
+            (xy 0.8636 0)
           )
           (stroke (width 0.1524) (type default))
           (fill (type none))
         )
-        (polyline
-          (pts
-            (xy -0.5334 0.3302)
-            (xy 0.3302 -0.508)
-          )
+        (rectangle (start 0.8636 0.127) (end 0 -0.127)
           (stroke (width 0.1524) (type default))
-          (fill (type none))
+          (fill (type outline))
         )
-        (polyline
-          (pts
-            (xy -0.3556 -2.032)
-            (xy 0.508 -2.8702)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.3556 0.508)
-            (xy 0.508 -0.3302)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (circle (center 0 0) (radius 0.635)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
+        (pin passive line (at 5.08 0 180) (length 3.81)
           (name "Pin_1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1215,6 +1182,7 @@
     )
   )
 
+
   (junction (at 107.95 43.18) (diameter 0) (color 0 0 0 0)
     (uuid 0088f61e-b29b-459d-a729-56d6674f1724)
   )
@@ -1242,6 +1210,9 @@
   (junction (at 88.9 30.48) (diameter 0) (color 0 0 0 0)
     (uuid 48cfbd42-9f27-423d-80ee-53c10831cb3d)
   )
+  (junction (at 93.98 30.48) (diameter 0) (color 0 0 0 0)
+    (uuid 4bea885f-8e39-43f1-9d65-c10713d3a33e)
+  )
   (junction (at 246.38 111.76) (diameter 0) (color 0 0 0 0)
     (uuid 808fb7c7-76bc-4d22-9da4-7771e47e04bc)
   )
@@ -1250,6 +1221,9 @@
   )
   (junction (at 119.38 30.48) (diameter 0) (color 0 0 0 0)
     (uuid 9cc83682-3d94-49e6-98cc-9835e8c12440)
+  )
+  (junction (at 41.91 50.8) (diameter 0) (color 0 0 0 0)
+    (uuid 9f76805a-c6b1-4956-a163-955e9ab1eb26)
   )
   (junction (at 76.2 30.48) (diameter 0) (color 0 0 0 0)
     (uuid a5667168-0dec-4287-9b3f-9b593268d19a)
@@ -1459,6 +1433,10 @@
     (stroke (width 0) (type default))
     (uuid 59562730-1c63-4b8d-8d34-cc32208141b6)
   )
+  (wire (pts (xy 93.98 30.48) (xy 102.87 30.48))
+    (stroke (width 0) (type default))
+    (uuid 59e1f954-09a9-4e9b-a3c8-917289577de1)
+  )
   (wire (pts (xy 220.98 121.92) (xy 220.98 120.65))
     (stroke (width 0) (type default))
     (uuid 5b53c179-9005-4da7-8f4b-9d8732f6c527)
@@ -1515,6 +1493,10 @@
     (stroke (width 0) (type default))
     (uuid 740f515b-3198-4e97-83ce-7ec5e8224c8a)
   )
+  (wire (pts (xy 41.91 50.8) (xy 45.72 50.8))
+    (stroke (width 0) (type default))
+    (uuid 77708555-d410-4b7a-9f8a-c656c55bca3e)
+  )
   (wire (pts (xy 220.98 123.19) (xy 220.98 121.92))
     (stroke (width 0) (type default))
     (uuid 787487ee-83b6-486f-bc90-30dc76c803d7)
@@ -1555,7 +1537,7 @@
     (stroke (width 0) (type default))
     (uuid 82ef2a84-6fbc-4175-8f8b-65a23e3e53c4)
   )
-  (wire (pts (xy 41.91 30.48) (xy 41.91 76.2))
+  (wire (pts (xy 41.91 30.48) (xy 41.91 50.8))
     (stroke (width 0) (type default))
     (uuid 90120204-fa62-428d-aada-24f5c5bf3145)
   )
@@ -1566,6 +1548,10 @@
   (wire (pts (xy 129.54 43.18) (xy 129.54 46.99))
     (stroke (width 0) (type default))
     (uuid 946e5a9d-5b6f-4288-bb36-d3825e389fce)
+  )
+  (wire (pts (xy 41.91 50.8) (xy 41.91 76.2))
+    (stroke (width 0) (type default))
+    (uuid 94e7737e-618c-4f9c-8c59-78a3e63f2ab9)
   )
   (wire (pts (xy 63.5 38.1) (xy 63.5 43.18))
     (stroke (width 0) (type default))
@@ -1691,7 +1677,7 @@
     (stroke (width 0) (type default))
     (uuid d1275987-8578-40f1-8cf3-fc5357d02ad1)
   )
-  (wire (pts (xy 88.9 30.48) (xy 102.87 30.48))
+  (wire (pts (xy 88.9 30.48) (xy 93.98 30.48))
     (stroke (width 0) (type default))
     (uuid d1e8be25-6a6b-4010-957c-8a84316ed095)
   )
@@ -1739,6 +1725,10 @@
     (stroke (width 0) (type default))
     (uuid eb311f38-396b-42bc-94a9-f2bc44dbedbf)
   )
+  (wire (pts (xy 93.98 25.4) (xy 93.98 30.48))
+    (stroke (width 0) (type default))
+    (uuid f145a499-8f68-4eff-9e07-51b739024ded)
+  )
   (wire (pts (xy 147.32 20.32) (xy 161.29 20.32))
     (stroke (width 0) (type default))
     (uuid f15359ab-c321-414b-bb35-0fe3df8f0105)
@@ -1781,6 +1771,14 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 1a01a94a-32ff-4622-a233-401e9d49f94a)
   )
+  (text "Size 2412\nVishay 593D106X9025C2TE3" (at 73.66 52.07 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 79471d1a-a17e-4476-837b-f652596e76ad)
+  )
+  (text "Other possible diodes\nB340LA-13-F" (at 124.46 64.77 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9a09504b-7928-4580-88c4-499d97ee3be9)
+  )
   (text "Input Stage" (at 16.51 17.78 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid fcde21f3-9585-4937-9810-4935f6bb7162)
@@ -1790,6 +1788,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 039bbbbf-f646-4511-bf62-3ec485b5a8d1)
   )
+  (label "+3V3" (at 45.72 50.8 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1e3dc779-4709-4ab2-be37-39bd8257456c)
+  )
   (label "GPIO19" (at 245.11 39.37 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 24ab18fc-1a99-4df7-81ac-6536fa390fe3)
@@ -1797,6 +1799,10 @@
   (label "ADC_EMF_A" (at 209.55 121.92 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3258b882-9953-420b-adcb-03c60d21c6f4)
+  )
+  (label "+V" (at 93.98 25.4 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 32ebdb39-8a37-4386-8885-9e0bf1252698)
   )
   (label "GPIO21" (at 161.29 20.32 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -1888,7 +1894,7 @@
     (property "Value" "6k8" (at 250.19 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 248.158 116.84 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 248.158 116.84 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 246.38 116.84 0)
@@ -1904,7 +1910,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "R7") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1919,7 +1925,7 @@
     (property "Value" "1k" (at 250.19 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 248.158 127 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 248.158 127 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 246.38 127 0)
@@ -1935,7 +1941,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "R8") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1950,7 +1956,7 @@
     (property "Value" "1k" (at 217.17 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 222.758 127 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 222.758 127 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 220.98 127 0)
@@ -1966,7 +1972,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "R6") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1981,7 +1987,7 @@
     (property "Value" "6k8" (at 217.17 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 222.758 116.84 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 222.758 116.84 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 220.98 116.84 0)
@@ -1997,7 +2003,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "R5") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2006,7 +2012,7 @@
   (symbol (lib_id "Transistor_FET:2N7002K") (at 199.39 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 020a6cf7-1107-4e67-9cf7-945a1315ed27)
-    (property "Reference" "Q2" (at 205.74 38.735 0)
+    (property "Reference" "Q4" (at 205.74 38.735 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N7002K" (at 205.74 41.275 0)
@@ -2024,7 +2030,32 @@
     (instances
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "Q2") (unit 1)
+          (reference "Q4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 27.94 20.32 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 03e46198-ad48-4e75-995c-458bc751f66c)
+    (property "Reference" "J1" (at 25.4 20.32 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "PAD" (at 28.575 19.05 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm" (at 27.94 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 27.94 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d1f6996f-8444-45be-9a25-5284febf2a06))
+    (instances
+      (project "DccDecoder3"
+        (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -2039,7 +2070,7 @@
     (property "Value" "6k8" (at 138.43 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 136.398 39.37 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 136.398 39.37 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 134.62 39.37 0)
@@ -2055,7 +2086,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "R4") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2085,7 +2116,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2094,7 +2125,7 @@
   (symbol (lib_id "MCU_RaspberryPi_and_Boards:Pico") (at 127 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f85b54b-5563-4f61-b9a4-9ac6d96d296c)
-    (property "Reference" "U1" (at 127 86.36 0)
+    (property "Reference" "U2" (at 127 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Pico" (at 127 88.9 0)
@@ -2152,7 +2183,7 @@
     (instances
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -2167,7 +2198,7 @@
     (property "Value" "2" (at 217.17 17.78 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 217.17 24.13 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm" (at 217.17 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 217.17 24.13 0)
@@ -2182,7 +2213,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "J4") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -2214,36 +2245,10 @@
     )
   )
 
-  (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 27.94 22.86 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 20b78e4f-d211-4a08-8b51-a39cf01160a1)
-    (property "Reference" "J1" (at 24.13 22.86 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "DCC" (at 24.13 20.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" (at 27.94 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 27.94 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b121f73e-41b3-45f6-8bd8-c34dc29ae9ae))
-    (pin "2" (uuid 3461f527-1c20-4d29-afc9-fb20dfcc1465))
-    (instances
-      (project "DccDecoder3"
-        (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "J1") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 156.21 135.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22c2e419-41e8-4dc7-b9fc-2078a65ab644)
-    (property "Reference" "#PWR05" (at 162.56 135.89 0)
+    (property "Reference" "#PWR02" (at 162.56 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 136.525 90)
@@ -2259,7 +2264,7 @@
     (instances
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -2289,7 +2294,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -2304,7 +2309,7 @@
     (property "Value" "6k8" (at 138.43 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 136.398 26.67 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 136.398 26.67 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 134.62 26.67 0)
@@ -2320,7 +2325,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "R3") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -2329,7 +2334,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 113.03 46.99 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e2d5a75-2bd2-490d-ab0e-ff533e831e7e)
-    (property "Reference" "D4" (at 113.3475 40.64 0)
+    (property "Reference" "D3" (at 113.3475 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RBR3L60AD" (at 113.3475 43.18 0)
@@ -2346,7 +2351,7 @@
     (instances
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "D4") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -2376,7 +2381,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2385,7 +2390,7 @@
   (symbol (lib_id "Transistor_FET:2N7002K") (at 228.6 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5318b0e5-5331-47ed-be03-f9674abbafcb)
-    (property "Reference" "Q3" (at 234.95 38.735 0)
+    (property "Reference" "Q5" (at 234.95 38.735 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N7002K" (at 234.95 41.275 0)
@@ -2403,7 +2408,7 @@
     (instances
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "Q3") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -2412,7 +2417,7 @@
   (symbol (lib_id "Transistor_FET:2N7002K") (at 257.81 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 55dab9c7-f09e-4f8a-bd6f-fe99f20832ba)
-    (property "Reference" "Q4" (at 264.16 38.735 0)
+    (property "Reference" "Q6" (at 264.16 38.735 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N7002K" (at 264.16 41.275 0)
@@ -2430,7 +2435,7 @@
     (instances
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "Q4") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -2445,7 +2450,7 @@
     (property "Value" "GND" (at 250.19 147.32 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 260.35 147.32 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm" (at 260.35 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 260.35 147.32 0)
@@ -2460,7 +2465,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "J9") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -2475,7 +2480,7 @@
     (property "Value" "0" (at 212.09 17.78 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 212.09 24.13 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm" (at 212.09 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 212.09 24.13 0)
@@ -2488,6 +2493,31 @@
           (reference "J3") (unit 1)
         )
       )
+      (project "DccDecoder3"
+        (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
+          (reference "J3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 27.94 22.86 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6275cf24-06c4-440c-a573-f2d484d2457e)
+    (property "Reference" "J2" (at 25.4 22.86 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "PAD" (at 28.575 21.59 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm" (at 27.94 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 27.94 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 14097005-bc93-4109-a2f3-278fb7ba85b1))
+    (instances
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
           (reference "J2") (unit 1)
@@ -2520,7 +2550,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2561,7 +2591,7 @@
     (property "Value" "M_OUT_B" (at 250.19 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 260.35 142.24 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm" (at 260.35 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 260.35 142.24 0)
@@ -2576,7 +2606,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "J7") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -2585,7 +2615,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 114.3 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 73cbaea3-ee25-41d8-b8aa-5d83d2ce3582)
-    (property "Reference" "D2" (at 114.3 59.69 0)
+    (property "Reference" "D4" (at 114.3 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RBR3L60AD" (at 113.9825 52.07 0)
@@ -2602,7 +2632,7 @@
     (instances
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "D2") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -2611,7 +2641,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 76.2 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 78c67fc4-0f80-4645-9feb-c17362218f7d)
-    (property "Reference" "C1" (at 80.01 33.401 0)
+    (property "Reference" "C2" (at 80.01 33.401 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF/25V" (at 80.01 35.941 0)
@@ -2628,7 +2658,7 @@
     (instances
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "C1") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2637,7 +2667,7 @@
   (symbol (lib_id "DMG2305UX-7:DMG2305UX-7") (at 71.12 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a9d1198-6ad3-400f-8a2c-2a75b35b0b74)
-    (property "Reference" "Q6" (at 68.58 69.85 90)
+    (property "Reference" "Q1" (at 68.58 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DMG2305UX-7" (at 68.58 72.39 90)
@@ -2673,7 +2703,7 @@
     (instances
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "Q6") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -2682,7 +2712,7 @@
   (symbol (lib_id "Device:C") (at 48.26 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d144a1d-0e51-4b23-accc-63f06f6278fe)
-    (property "Reference" "C3" (at 52.07 35.56 0)
+    (property "Reference" "C1" (at 52.07 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uf/16V" (at 52.07 38.1 0)
@@ -2699,7 +2729,7 @@
     (instances
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "C3") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -2729,7 +2759,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2744,7 +2774,7 @@
     (property "Value" "3" (at 219.71 17.78 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 219.71 24.13 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm" (at 219.71 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 219.71 24.13 0)
@@ -2759,7 +2789,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "J5") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -2789,7 +2819,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2819,7 +2849,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -2828,7 +2858,7 @@
   (symbol (lib_id "Regulator_Linear:AP7384-33Y") (at 63.5 30.48 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4ba2230-54de-4f9e-aacc-73c62a5abc78)
-    (property "Reference" "U3" (at 63.5 24.13 0)
+    (property "Reference" "U1" (at 63.5 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AP7384-33Y" (at 63.5 26.67 0)
@@ -2846,7 +2876,7 @@
     (instances
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "U3") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -2855,7 +2885,7 @@
   (symbol (lib_id "Transistor_FET:2N7002K") (at 144.78 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cac7952f-22fd-48ae-8ef2-7bc111674114)
-    (property "Reference" "Q1" (at 151.13 32.385 0)
+    (property "Reference" "Q2" (at 151.13 32.385 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N7002K" (at 151.13 34.925 0)
@@ -2873,7 +2903,7 @@
     (instances
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "Q1") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -2888,7 +2918,7 @@
     (property "Value" "1" (at 214.63 17.78 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 214.63 24.13 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm" (at 214.63 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 214.63 24.13 0)
@@ -2903,7 +2933,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "J3") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -2933,7 +2963,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2942,7 +2972,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 111.76 39.37 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5919a98-fc46-4366-8fbc-15ce6c49a007)
-    (property "Reference" "D3" (at 112.0775 33.02 0)
+    (property "Reference" "D2" (at 112.0775 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RBR3L60AD" (at 112.0775 35.56 0)
@@ -2959,7 +2989,7 @@
     (instances
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "D3") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -2989,7 +3019,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -2998,7 +3028,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 88.9 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d972c3cf-f191-4a8d-8dd1-c4627fd210f0)
-    (property "Reference" "C2" (at 92.71 33.401 0)
+    (property "Reference" "C3" (at 92.71 33.401 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF/25v" (at 92.71 35.941 0)
@@ -3015,7 +3045,7 @@
     (instances
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "C2") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -3045,7 +3075,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3075,7 +3105,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3090,7 +3120,7 @@
     (property "Value" "+V" (at 250.19 139.7 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 260.35 139.7 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm" (at 260.35 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 260.35 139.7 0)
@@ -3105,7 +3135,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "J6") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -3114,7 +3144,7 @@
   (symbol (lib_id "Transistor_FET:2N7002K") (at 170.18 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1ea8834-5663-41a3-b34f-6fc9f2894dab)
-    (property "Reference" "Q5" (at 176.53 38.735 0)
+    (property "Reference" "Q3" (at 176.53 38.735 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N7002K" (at 176.53 41.275 0)
@@ -3132,7 +3162,7 @@
     (instances
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "Q5") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -3147,7 +3177,7 @@
     (property "Value" "M_OUT_A" (at 250.19 144.78 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 260.35 144.78 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm" (at 260.35 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 260.35 144.78 0)
@@ -3162,7 +3192,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "J8") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -3200,7 +3230,7 @@
       )
       (project "DccDecoder3"
         (path "/68a87a67-79ef-42dd-968e-a1e235d63e5c"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
