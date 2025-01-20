@@ -59,9 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "solder_mask_bridge|127508095|75702438|cfff60b7-8654-4742-84c9-545f8784fb40|736a301b-c52d-4f50-a69f-cba60d457a95"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -101,7 +99,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "warning",
+        "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
