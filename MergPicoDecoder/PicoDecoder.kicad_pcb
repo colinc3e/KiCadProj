@@ -1494,7 +1494,7 @@
     (tstamp 00000000-0000-0000-0000-000063ba80a5)
     (at 141.224 101.092 -90)
     (path "/00000000-0000-0000-0000-000062807e40")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "U1" (at 15.5575 0.508 270) (layer "B.SilkS")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 64b4cb21-0ddf-4ef1-a6d8-b8bc9ca1addb)

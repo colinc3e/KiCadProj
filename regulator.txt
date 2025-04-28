@@ -1,0 +1,11 @@
+AP7380-33Y-13   3.3v from up to 24V max current 150mA 
+AP7387-5OY-13   5V from max 60V max current 150mA
+HT7550S         5V from max 30V max current 100mA  on my board
+
+BDR6133 motor drive max 2.8 Ammp
+BDR6232             max 2 Amp
+
+Diodes
+RBR3L60ADD          60V 3 Amp
+KMB24F              36V 1 Amp       buck convertor
+  
