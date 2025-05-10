@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Pico)(type Legacy)(uri D:/KicadLibs/Modules/RaspberryPico.lib)(options "")(descr ""))
+  (lib (name PicoDecoder-rescue)(type Legacy)(uri ${KIPRJMOD}/PicoDecoder-rescue.lib)(options "")(descr ""))
+  (lib (name BD623xx)(type Legacy)(uri D:/KicadLibs/BD623xx.lib)(options "")(descr ""))
+)
