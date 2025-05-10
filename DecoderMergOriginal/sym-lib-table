@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Pico")(type "Legacy")(uri "D:/KicadLibs/Modules/RaspberryPico.lib")(options "")(descr ""))
+  (lib (name "PicoDecoder-rescue")(type "KiCad")(uri "${KIPRJMOD}/PicoDecoder-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "BD623xx")(type "Legacy")(uri "D:/KicadLibs/BD623xx.lib")(options "")(descr ""))
+)
