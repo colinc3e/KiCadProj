@@ -2238,7 +2238,7 @@
   (gr_text "FA" (at 180.34 101.6) (layer "B.SilkS") (tstamp fe8e0b22-2f00-4144-813c-86bb80713b81)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
   )
-  (gr_text "DccDecoder 4" (at 171.45 92.075) (layer "F.SilkS") (tstamp 1b810a55-78bf-4ace-b81a-e7152cb277a3)
+  (gr_text "DccDecoder 4.1\n" (at 171.45 92.075) (layer "F.SilkS") (tstamp 1b810a55-78bf-4ace-b81a-e7152cb277a3)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
   (dimension (type aligned) (layer "User.1") (tstamp 4fee93b1-9fc9-4406-8c98-8c124facbf2f)

@@ -1188,7 +1188,6 @@
     )
   )
 
-
   (junction (at 116.84 66.04) (diameter 0) (color 0 0 0 0)
     (uuid 10857b6a-1911-436f-b306-a908c4d9c19a)
   )
@@ -1827,7 +1826,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0cbd2081-1ab3-4324-ba6f-fb76a29b19b7)
   )
-  (text "Notes\n1 now using same pin outs as Benoit's Merg scheme"
+  (text "Notes\n1 now using same pin outs as Benoit's Merg scheme\n2 Corrected earlier error AP73B4 reversed"
     (at 76.2 185.42 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0e65e36d-175d-40cf-979e-ad7e90c79600)
