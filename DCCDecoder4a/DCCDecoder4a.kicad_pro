@@ -405,14 +405,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DCCDecoder4.kicad_pro",
+    "filename": "DCCDecoder4a.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.19812,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -429,7 +429,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.19812,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -438,7 +438,7 @@
         "microvia_drill": 0.1,
         "name": "power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 65, 40)",
         "track_width": 0.635,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -450,7 +450,36 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "power",
+        "pattern": "DCC1"
+      },
+      {
+        "netclass": "power",
+        "pattern": "DCC2"
+      },
+      {
+        "netclass": "power",
+        "pattern": "+V"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/DCC1"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/DCC2"
+      },
+      {
+        "netclass": "power",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

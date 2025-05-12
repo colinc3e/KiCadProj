@@ -377,10 +377,10 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -413,17 +413,65 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 40, 19)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 25
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(36, 108, 255)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 15
       }
     ],
     "meta": {
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "Net-(J1-Pin_1)": "power",
-      "Net-(J1-Pin_2)": "power"
-    },
-    "netclass_patterns": []
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "power",
+        "pattern": "/DCC1"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/DCC2"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/+V"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/DCC_IN"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -470,6 +518,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "7d4f522c-2668-45df-bec0-b4805c24e4cc",
+      ""
+    ]
+  ],
   "text_variables": {}
 }
