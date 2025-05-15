@@ -470,6 +470,10 @@
       {
         "netclass": "signal",
         "pattern": "/DCC_IN"
+      },
+      {
+        "netclass": "power",
+        "pattern": "GND"
       }
     ]
   },
