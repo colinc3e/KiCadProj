@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PicoCanSmd31")(type "KiCad")(uri "$(KIPRJMOD)/PicoCanSmd31.pretty")(options "")(descr ""))
+)
