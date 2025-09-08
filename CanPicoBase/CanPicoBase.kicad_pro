@@ -503,7 +503,7 @@
       "netlist": "CanPicoBase.net",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "CanPicoBase.dsn",
       "step": "",
       "svg": "",
       "vrml": ""

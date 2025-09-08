@@ -1,3 +1,6 @@
 [submodule "RP2040-minimal-design"]
 	path = RP2040-minimal-design
 	url = https://github.com/tommy-gilligan/RP2040-minimal-design.git
+[submodule "KiCadLibs/KiCad-RP-Pico"]
+	path = KiCadLibs/KiCad-RP-Pico
+	url = https://github.com/ncarandini/KiCad-RP-Pico.git

@@ -1,0 +1,98 @@
+
+(rules PCB CanPicoBase
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 2)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.2)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.8)
+    )
+  )
+  (rule
+    (width 254.0)
+    (clear 254.0)
+    (clear 127.0 (type smd_to_turn_gap))
+    (clear 63.4 (type smd-smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-power" "Via[0-1]_800:400_um" power
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    power "Via[0-1]_800:400_um-power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(D1-A)" "unconnected-(J1-Pin_2-Pad2)" "unconnected-(J1-Pin_3-Pad3)" "Net-(J4-Pin_1)" "Net-(J4-Pin_2)" "Net-(J4-Pin_4)" "Net-(J4-Pin_5)" "Net-(J4-Pin_6)"
+    "Net-(J4-Pin_7)" "Net-(J4-Pin_9)" "Net-(J4-Pin_10)" "Net-(J4-Pin_11)" "Net-(J4-Pin_12)" "Net-(J4-Pin_13)" /SDA /SCL
+    "Net-(J4-Pin_14)" "Net-(J4-Pin_15)" "Net-(J4-Pin_16)" "Net-(J4-Pin_17)" "Net-(J5-Pin_1)" "Net-(J5-Pin_2)" "Net-(J5-Pin_4)" "Net-(J5-Pin_5)"
+    "Net-(J5-Pin_9)" "Net-(J5-Pin_10)" "Net-(J5-Pin_11)" "Net-(J5-Pin_12)" "Net-(J5-Pin_14)" "Net-(J5-Pin_15)" "Net-(J5-Pin_16)" "Net-(J5-Pin_17)"
+    "Net-(J5-Pin_19)" "Net-(J5-Pin_20)" "unconnected-(U3-GND-Pad8)" "unconnected-(U3-GND-Pad13)" "unconnected-(U3-GND-Pad18)" "unconnected-(U3-GND-Pad23)" "unconnected-(U3-GND-Pad28)" "unconnected-(U3-GND-Pad38)"
+    "unconnected-(U3-SWCLK-Pad41)" "unconnected-(U3-GND-Pad42)" "unconnected-(U3-SWDIO-Pad43)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class power
+    GND /5V /12V /VBUS /VSYS /3v3
+    (clearance_class power)
+    (via_rule power)
+    (rule
+      (width 1000.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
