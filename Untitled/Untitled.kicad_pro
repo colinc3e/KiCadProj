@@ -380,7 +380,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -469,7 +469,7 @@
   },
   "sheets": [
     [
-      "0c7b1023-00a5-46d3-9a5b-6b9e17609b4b",
+      "774ca873-b611-4971-865b-08f86387ffba",
       ""
     ]
   ],
