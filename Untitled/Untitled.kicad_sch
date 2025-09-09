@@ -414,7 +414,7 @@
     (property "Value" "Pico" (at 154.94 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Kicad-RP-Pico:RPi_Pico_SMD_TH" (at 154.94 99.06 90)
+    (property "Footprint" "RPi_Pico:RPi_Pico_SMD_TH" (at 154.94 99.06 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 154.94 99.06 0)
