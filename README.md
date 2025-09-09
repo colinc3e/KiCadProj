@@ -1,2 +1,0 @@
-# KiCadProj
-# KiCadProj
