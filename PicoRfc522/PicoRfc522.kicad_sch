@@ -1806,7 +1806,7 @@
     (property "Value" "Grove 2mm" (at 30.48 109.855 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "OPL_Kicad_Library:HW4-2.0" (at 30.48 115.57 0)
+    (property "Footprint" "OPL_Connector:HW4-2.0" (at 30.48 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 30.48 115.57 0)
